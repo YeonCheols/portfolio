@@ -25,9 +25,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
 
-      - name: Get pnpm cache directory path
-        id: pnpm-cache-dir-path
-        run: echo "dir=$(pnpm cache dir)" >>$GITHUB_OUTPUT
+      # - name: Get pnpm cache directory path
+      #   id: pnpm-cache-dir-path
+      #   run: echo "dir=$(pnpm cache dir)" >>$GITHUB_OUTPUT
 
       - uses: actions/cache@v3
         id: pnpm-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
