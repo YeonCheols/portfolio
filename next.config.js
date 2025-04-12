@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: "/pages",
-  output: "export",
   images: {
     loader: "akamai",
     path: "/",
   },
+  output: "export",
+  assetPrefix: "./",
 
   webpack: (config) => {
     config.module.rules.push({
