@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write **/*.{ts,tsx}",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "deploy": "next build && touch out/.nojekyll"
   },
   "dependencies": {
     "@next/font": "13.1.5",
