@@ -4,11 +4,10 @@
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "성연철",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "s9292909@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/YeonCheols" }
     ]
   },
 
